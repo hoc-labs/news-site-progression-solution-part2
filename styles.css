@@ -58,7 +58,7 @@ a {
   grid-gap: 16px;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .articles {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -77,7 +77,7 @@ a {
   background: url("./images/robot.jpg") center/cover;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .showcase p {
     width: 50%;
   }
